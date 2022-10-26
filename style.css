@@ -1,0 +1,39 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #263238;
+  margin: 0px;
+}
+#clock{
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#clock-bg{
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  background-color: #546E7A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#clock-bg>div{
+  padding: 10px;
+  color: #fdfdfd;
+  font-size: 40px;
+}
+
+
+#about{
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+}
+#about>a{
+  color :#fdfdfd;
+  text-decoration:none;
+}
